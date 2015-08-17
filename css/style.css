@@ -1,0 +1,111 @@
+.list-iklan {
+	column-count: 4;
+	-moz-column-count: 4;
+	-webkit-column-count: 4;
+	
+	        column-gap: 30px;
+	   -moz-column-gap: 30px;
+	-webkit-column-gap: 30px;
+}
+.list-iklan h1 {
+	text-transform: capitalize;
+}
+.list-iklan p:first-letter {
+	text-transform: uppercase;
+}
+
+a:hover .iklan {
+	color: white;
+}
+
+.tulisan {
+	padding: 3px;
+}
+
+.breadcrumb {
+	margin-top: 20px;
+}
+.lisensi, .lisensi-2 {
+	margin-bottom: 20px;
+}
+.lisensi {
+	margin-top: 20px;
+}
+
+@media (max-width: 800px){
+	.list-iklan {
+		column-count: 3;
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+	}
+}
+@media (max-width: 600px){
+	.list-iklan {
+		column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+	}
+}
+@media (max-width: 360px){
+	.list-iklan {
+		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+	}
+}
+
+.gambar img {
+	width: 100%;
+}
+
+a:focus, a:hover {
+	text-decoration: initial;
+}
+
+.box {
+	margin-bottom: 20px;
+}
+.box .text {
+	color: white;
+	line-height: 80px;
+}
+.white {
+	color: white;
+}
+
+.box-1,
+.box-1 ~ .container a:hover .iklan {
+	background: #f44336;
+}
+.box-2,
+.box-2 ~ .container a:hover .iklan {
+	background: #e91e63;
+}
+.box-3,
+.box-3 ~ .container a:hover .iklan {
+	background: #9c27b0;
+}
+.box-4,
+.box-4 ~ .container a:hover .iklan {
+	background: #673ab7;
+}
+.box-5,
+.box-5 ~ .container a:hover .iklan {
+	background: #3f51b5;
+}
+.box-6,
+.box-6 ~ .container a:hover .iklan {
+	background: #2196f3;
+}
+.box-7,
+.box-7 ~ .container a:hover .iklan {
+	background: #03a9f4;
+}
+.box-8,
+.box-8 ~ .container a:hover .iklan {
+	background: #00bcd4;
+}
+.box-9,
+.box-9 ~ .container a:hover .iklan {
+	background: #009688;
+}
