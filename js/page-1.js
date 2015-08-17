@@ -1,52 +1,40 @@
 data = [
 {
 	link: "https://facebook.com",
-	gambar: "img/1.jpg",
+	gambar: "http://s4.postimg.org/aeux94nzh/image.jpg",
 	judul: "Facebook",
-	deskripsi: "Dengan Facebook, Anda bisa menghubungkan relasi Anda yang sudah terpisah jauh."
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 },
 {
 	link: "https://twitter.com",
-	gambar: "img/2.jpg",
+	gambar: "http://s8.postimg.org/bcomgpkmd/image.jpg",
 	judul: "Twitter",
-	deskripsi: "Cukup dengan @, kamu bisa berkomunikasi dengan siapa saja."
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 },
 {
-	link: "https://facebook.com",
-	gambar: "img/3.jpg",
-	judul: "Facebook",
-	deskripsi: "Dengan Facebook, Anda bisa menghubungkan relasi Anda yang sudah terpisah jauh."
+	link: "http://kaskus.co.id",
+	gambar: "http://s4.postimg.org/jf8pksyul/image.jpg",
+	judul: "Kaskus",
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 },
 {
-	link: "https://twitter.com",
-	gambar: "img/4.jpg",
-	judul: "Twitter",
-	deskripsi: "Cukup dengan @, kamu bisa berkomunikasi dengan siapa saja."
+	link: "http://kompasiana.com",
+	gambar: "http://s18.postimg.org/mirxhih6h/image.jpg",
+	judul: "Kompasiana",
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 },
 {
-	link: "https://facebook.com",
-	gambar: "img/5.jpg",
-	judul: "Facebook",
-	deskripsi: "Dengan Facebook, Anda bisa menghubungkan relasi Anda yang sudah terpisah jauh."
+	link: "http://japanesestation.com",
+	gambar: "http://s22.postimg.org/ede6tfqc1/image.jpg",
+	judul: "Japanese Station",
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
 },
 {
-	link: "https://twitter.com",
-	gambar: "img/6.jpg",
-	judul: "Twitter",
-	deskripsi: "Cukup dengan @, kamu bisa berkomunikasi dengan siapa saja."
-},
-{
-	link: "https://facebook.com",
-	gambar: "img/7.jpg",
-	judul: "Facebook",
-	deskripsi: "Dengan Facebook, Anda bisa menghubungkan relasi Anda yang sudah terpisah jauh."
-},
-{
-	link: "https://twitter.com",
-	gambar: "img/8.jpg",
-	judul: "Twitter",
-	deskripsi: "Cukup dengan @, kamu bisa berkomunikasi dengan siapa saja."
-},
+	link: "http://infoastronomy.co.vu",
+	gambar: "http://s27.postimg.org/mgxgefner/image.jpg",
+	judul: "Info Astronomy",
+	deskripsi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+}
 ]
 
 for (i=0; i<data.length; i++){
