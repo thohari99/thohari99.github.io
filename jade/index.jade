@@ -1,0 +1,31 @@
+mixin box(angka, konten)
+	.col-md-4.col-sm-12
+		a(href="page-#{angka}.jade")
+			.box(class="box-#{angka}")
+				h4.text.text-center #{konten}
+
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="initial-scale=1, width=device-width")
+		title Amin Thohari
+		link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	body
+		.container
+			.jumbotron
+				h1.text-center Amin Thohari
+				h3.text-center Just Another Website
+			.row
+				+box("1", "Artikel & Edukasi")
+				+box("2", "Bahasa")
+				+box("3", "Film & Video")
+				+box("4", "Game Online")
+				+box("5", "Gerai & Jasa")
+				+box("6", "Jejaring Sosial")
+				+box("7", "Media Informasi")
+				+box("8", "Profile")
+				+box("9", "Software")
+			p.text-center.lisensi-2 Created by 
+				a(href="https://twitter.com/mzaini30") @mzaini30
