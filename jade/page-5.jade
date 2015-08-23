@@ -1,37 +1,39 @@
-- var judul = "Gerai & Jasa"
 - var halaman = "5"
-
-mixin konten(link, gambar, judul, deskripsi)
-	a(href="#{link}")
-		.iklan
-			.gambar
-				img(src="#{gambar}")
-			.tulisan
-				h1 #{judul}
-				p #{deskripsi}
-		hr
+- var judul = "Media"
 
 doctype html
 html
 	head
 		meta(charset="utf-8")
 		meta(name="viewport", content="initial-scale=1, width=device-width")
-		title #{judul}
-		link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+		title #{judul} | SitusPedia
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/materialize.color.css")
 		link(rel="stylesheet", href="css/style.css")
+		script(src="js/jquery.min.js")
+		script(src="js/page-#{halaman}.js")
+		script(src="js/apps.js")
 	body
-		.box-1
+		.judul.lime.white-text
 			.container
-				h1.white #{judul}
+				h1 #{judul}
 		.container
 			ol.breadcrumb
 				li
-					a(href="index.jade") Beranda
-				li #{judul}
+					a(href="index.html") Beranda
+				li
+					a(href="page-1.html") Artikel & Edukasi
+				li
+					a(href="page-2.html") Download
+				li
+					a(href="page-3.html") Gerai & Jasa
+				li
+					a(href="page-4.html") Sosial
+				li
+					a(href="page-5.html") Media
+				li
+					a(href="page-6.html") Lembaga & Perusahaan
 			.row.list-iklan
+			hr
 			p.text-center.lisensi Created by 
 				a(href="https://twitter.com/mzaini30") @mzaini30
-				|  | 
-				a(href="js/page-#{halaman}.js") edit
-			script(src="js/jquery.min.js")
-			script(src="js/page-#{halaman}.js")
