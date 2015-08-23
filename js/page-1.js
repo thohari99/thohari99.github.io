@@ -31,4 +31,4 @@ data = [
 }
 ]
 
-ubah_data = "http://muhammadzaini.com"
+ubah_data = "https://github.com/thohari99/thohari99.github.io/edit/master/js/page-1.js"
