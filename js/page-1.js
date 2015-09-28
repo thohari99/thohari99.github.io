@@ -1,8 +1,7 @@
 data = [
 {
 	link: "http://codepolitan.com",
-	judul: "Codepolitan
-	Edukasi Programing",
+	judul: "Codepolitan (Edukasi Programing)",
 	warna: "green lighten-3"
 },
 {
