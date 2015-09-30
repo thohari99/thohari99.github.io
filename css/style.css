@@ -33,8 +33,24 @@ a:hover .iklan {
 
 /* Kotak di bagian iklan */
 
+.konten-iklan {
+	margin-top: 20px;
+}
+.konten-iklan p {
+	padding: 20px;
+	padding-top: 0;
+	padding-bottom: 5px;
+	display: block;
+	text-align: center;
+}
+.list-iklan .box {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 110px;
+	overflow: hidden;
+}
 .list-iklan .box .text {
-	line-height: 90px;
+	line-height: 30px;
 	font-size: 23px;
 }
 
@@ -47,6 +63,9 @@ a:hover .iklan {
 /* ~~~TIPOGRAFI~~~ */
 
 .box {
+	color: white;
+}
+.judul-artikel a {
 	color: white;
 }
 
