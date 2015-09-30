@@ -6,34 +6,20 @@ html
 	head
 		meta(charset="utf-8")
 		meta(name="viewport", content="initial-scale=1, width=device-width")
-		title #{judul} | SitusPedia
+		title #{judul} | arsipedia.com
 		link(rel="stylesheet", href="css/bootstrap.min.css")
 		link(rel="stylesheet", href="css/materialize.color.css")
-		link(rel="stylesheet", href="css/style.css")
 		script(src="js/jquery.min.js")
-		script(src="js/page-#{halaman}.js")
-		script(src="js/apps.js")
+		script.
+			document.writeln("<lin"+"k rel='stylesheet' href='css/style.css?"+Math.random()+"'/"+">");
+		script.
+			document.writeln("<scr"+"ipt src='js/page-#{halaman}.js?"+Math.random()+"'></sc"+"ript>");
+		script.
+			document.writeln("<scr"+"ipt src='js/apps.js?"+Math.random()+"'></sc"+"ript>");
 	body
-		.judul.deep-orange.white-text
+		.judul.brown.darken-2.white-text
 			.container
-				h1 #{judul}
-		.container
-			ol.breadcrumb
-				li
-					a(href="index.html") Beranda
-				li
-					a(href="page-1.html") Artikel & Edukasi
-				li
-					a(href="page-2.html") Download
-				li
-					a(href="page-3.html") Gerai & Jasa
-				li
-					a(href="page-4.html") Sosial
-				li
-					a(href="page-5.html") Media
-				li
-					a(href="page-6.html") Lembaga & Perusahaan
+				h1.judul-artikel
+					a(href="index.html") #{judul}
+		.container.konten-iklan
 			.row.list-iklan
-			hr
-			p.text-center.lisensi Created by 
-				a(href="https://twitter.com/mzaini30") @mzaini30
