@@ -9,19 +9,7 @@ data = [
 	link: "http://codepolitan.com",
 	judul: "Codepolitan",
 	deskripsi: "Artikel Proggraming",
-	warna: "green lighten-3"
-},
-{
-	link: "http://infoastronomy.co.vu",
-	judul: "Info Astronomy",
-	deskripsi: "Artikel Astronomi",
-	warna: "green"
-},
-{
-	link: "http://kompasiana.com",
-	judul: "Kompasiana",
-	deskripsi: "Opini Netizen",
-	warna: "blue darken-2"
+	warna: "green darken-2"
 },
 {
 	link: "http://muhammadzaini.com",
@@ -30,10 +18,22 @@ data = [
 	warna: "black"
 },
 {
+	link: "http://infoastronomy.co.vu",
+	judul: "Info Astronomy",
+	deskripsi: "Artikel Astronomi",
+	warna: "green darken-2"
+},
+{
+	link: "http://kompasiana.com",
+	judul: "Kompasiana",
+	deskripsi: "Opini Netizen",
+	warna: "blue darken-2"
+},
+{
 	link: "http://terselubung.in",
 	judul: "Terselubung",
 	deskripsi: "",
-	warna: "red"
+	warna: "red darken-2"
 }
 ]
 
