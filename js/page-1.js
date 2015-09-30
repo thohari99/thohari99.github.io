@@ -28,6 +28,12 @@ data = [
 	judul: "Muhammad Zaini",
 	deskripsi: "",
 	warna: "black"
+},
+{
+	link: "http://terselubung.in",
+	judul: "Terselubung",
+	deskripsi: "",
+	warna: "red"
 }
 ]
 
