@@ -1,0 +1,26 @@
+mixin box(angka, konten, warna)
+	.col-md-6.col-sm-12
+		a(href="page-#{angka}.html")
+			.box(class="#{warna}")
+				h5.text.text-center
+					strong #{konten}
+
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="initial-scale=1, width=device-width")
+		title arsipedia.com
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/materialize.color.css")
+		script.
+			document.writeln("<lin"+"k rel='stylesheet' href='css/style.css?"+Math.random()+"'/"+">");
+	body
+		.container
+			.jumbotron.transparent
+				h1.text-center
+					strong
+						a.black-text(href="index.html") arsipedia.com
+			.row
+				+box("daftar", "Daftar", "green darken-4")
+				+box("ketentuan", "Ketentuan", "brown darken-2")
