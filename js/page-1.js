@@ -1,30 +1,31 @@
 data = [
 {
+	link: "http://Wikipedia.org",
+	judul: "Wikipedia",
+	deskripsi: "",
+	warna: "black"
+},	
+{
 	link: "http://codepolitan.com",
-	judul: "Codepolitan (Edukasi Programing)",
+	judul: "Codepolitan",
+	deskripsi: "Artikel Proggraming",
 	warna: "green lighten-3"
 },
 {
 	link: "http://infoastronomy.co.vu",
 	judul: "Info Astronomy",
-	deskripsi: "Artikel Astronomi.",
+	deskripsi: "Artikel Astronomi",
 	warna: "green"
 },
 {
 	link: "http://kompasiana.com",
 	judul: "Kompasiana",
-	deskripsi: "Opini Rakyat",
+	deskripsi: "Opini Netizen",
 	warna: "blue darken-2"
 },
 {
 	link: "http://muhammadzaini.com",
 	judul: "Muhammad Zaini",
-	deskripsi: "",
-	warna: "black"
-},
-{
-	link: "http://Wikipedia.org",
-	judul: "Wikipedia",
 	deskripsi: "",
 	warna: "black"
 }
