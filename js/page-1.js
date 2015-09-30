@@ -27,6 +27,12 @@ data = [
 	judul: "Muhammad Zaini",
 	deskripsi: "Just another blog",
 	warna: "white"
+},
+{
+	link: "http://kucing.com",
+	judul: "Kucing",
+	deskripsi: "Just another blog",
+	warna: "purple"
 }
 ]
 
