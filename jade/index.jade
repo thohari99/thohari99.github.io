@@ -2,33 +2,32 @@ mixin box(angka, konten, warna)
 	.col-md-4.col-sm-12
 		a(href="page-#{angka}.html")
 			.box(class="#{warna}")
-				h4.text.text-center #{konten}
+				h5.text.text-center
+					strong #{konten}
 
 doctype html
 html
 	head
 		meta(charset="utf-8")
 		meta(name="viewport", content="initial-scale=1, width=device-width")
-		title SitusPedia
+		title arsipedia.com
 		link(rel="stylesheet", href="css/bootstrap.min.css")
 		link(rel="stylesheet", href="css/materialize.color.css")
-		link(rel="stylesheet", href="css/style.css")
+		script.
+			document.writeln("<lin"+"k rel='stylesheet' href='css/style.css?"+Math.random()+"'/"+">");
 	body
 		.container
 			.header
 				a(href="daftar.html") Daftarkan Website Saya (gratis)
-				|  / 
-				a(href="ketentuan.html") Ketentuan
 			.jumbotron.transparent
-				h1.text-center SitusPedia
-				h3.text-center Lihat dan Temukan Mereka
+				h1.text-center
+					strong arsipedia.com
+				h3.text-center
+					em Lihat dan Temukan Mereka
 			.row
-				+box("1", "Artikel & Edukasi", "red")
-				+box("2", "Download", "green")
-				+box("3", "Gerai & Jasa", "teal")
-				+box("4", "Sosial", "light-blue")
-				+box("5", "Media", "lime")
-				+box("6", "Lembaga & Perusahaan", "deep-orange")
-			hr
-			p.text-center.lisensi Created by 
-				a(href="https://twitter.com/mzaini30") @mzaini30
+				+box("1", "Artikel & Edukasi", "red darken-4")
+				+box("2", "Download", "green darken-4")
+				+box("3", "Gerai & Jasa", "orange darken-4")
+				+box("4", "Media Sosial", "purple darken-4")
+				+box("5", "Media Informasi", "blue darken-4")
+				+box("6", "Lembaga & Perusahaan", "brown darken-2")
